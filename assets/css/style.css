@@ -1,0 +1,102 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+section{
+    margin-bottom: 20px;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+/* .navigation{
+    background-color: white;
+    position: fixed;
+} */
+.navigation h1{
+    font-family: serif;
+    line-height: 10px;
+    color: #75747c;
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation li{
+    color: #75747c;
+    width: 100px;
+    float: left;
+}
+.navigation li:hover{
+    color: #e99b9b;
+    cursor: pointer;
+}
+.left{
+    width:60%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left .head{
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    font: weight 60px;
+}
+.left .content{
+    float: right;
+    width: 50%;
+    color: #595860;
+    text-align: justify;
+}
+.left .content button{
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    width: 150px;
+    background-color: #00001a;
+    color: #fff;
+}
+.right{
+    width: 38%;
+    float: right;
+    background-color: #00001a;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.right .item h3{
+    color: white;
+}
+.right .item h3:hover{
+    color: #dd9c48;
+    cursor: pointer;
+}
+.box{
+    float: left;
+    width: 33%;
+    display: block;
+}
+.box .image{
+    width: 40%;
+    float: left;
+}
+.box .image img{
+    width: 100%;
+}
+.box .context{
+    width: 60%;
+    float: right;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box .context h2{
+    margin-top: 0px;
+    color: #c6c3ca;
+}
+.box .context h4{
+    color: #000012;
+}
+.box .context h4:hover{
+    color: #f05c52;
+    cursor: pointer;
+}
