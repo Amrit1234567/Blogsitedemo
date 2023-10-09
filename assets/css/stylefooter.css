@@ -1,0 +1,114 @@
+section{
+    height: 50vh;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    padding: 55px 50px;
+    box-sizing: border-box;
+    background-color: #666;
+    font:  16px sans-serif;
+    text-align: left;
+}
+footer >*{
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.footer-left{
+    width: 40%;
+}
+.footer-left h1 span{
+    color: lightseagreen;
+}
+.footer-left h1{
+    color: white;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0px;
+}
+.footer-left .footer-links{
+    margin: 25px 0 12px;
+    color: #fff;
+}
+.footer-left .footer-links a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    color: inherit;
+    line-height: 1.8px;
+}
+.footer-left .footer-links a::before{
+    content: "|";
+    font-size: 25px;
+    padding: 5px;
+    font-weight: 300;
+    vertical-align: center;
+}
+.footer-left .footer-links .link1::before{
+    content: none;
+}
+.footer-left p{
+    color: rgb(42, 41, 41);
+    font-size: 15px;
+}
+footer .footer-center{
+    width: 35%;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+.footer-center p{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.footer-center span{
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 3px;
+}
+.footer-center p a{
+    color: lightseagreen;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer-right{
+    width: 25%;
+}
+.footer-right p span{
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+.footer-right p{
+    width: 200px;
+    color: #333;
+    text-align: left;
+    font-size: 14px;
+}
+.footer-right .footer-icons{
+    margin-top: 25px;
+}
+.footer-right .footer-icons a{
+    width:35px;
+    height: 35px;
+    background-color: #33383b;
+    cursor: pointer;
+    float: left;
+    margin-right: 3px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    text-decoration: none;
+}

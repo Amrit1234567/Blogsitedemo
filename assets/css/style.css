@@ -23,13 +23,16 @@ body{
     list-style-type: none;
 }
 .navigation li{
-    color: #75747c;
     width: 100px;
     float: left;
 }
-.navigation li:hover{
+.navigation li a:hover{
     color: #e99b9b;
     cursor: pointer;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #75747c;
 }
 .left{
     width:60%;
